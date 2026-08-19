@@ -1,7 +1,7 @@
 /* HOPR Product Analytics */
 
 window.HOPR_ANALYTICS = {
-  mixpanelToken: "YOUR_MIXPANEL_PROJECT_TOKEN",
+  mixpanelToken: "7334537f0cb8f90b792ca5243a019483",
   gaMeasurementId: ""
 };
 

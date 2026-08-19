@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Find a Ride — HOPR</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/analytics.js"></script>
+</head><body><div id="app-header"></div>
+<main class="page">
+  <section class="page-title"><span class="eyebrow">DISCOVER</span><h1>Find a ride</h1><p>Search realistic sample rides and practise analysing the complete discovery funnel.</p></section>
+  <section class="search-panel">
+    <form id="ride-search-form">
+      <div class="field"><label>From</label><input id="from" value="Noida Sector 62" required></div>
+      <div class="field"><label>To</label><input id="to" value="Cyber Hub, Gurugram" required></div>
+      <div class="field"><label>Date</label><input id="date" type="date" required></div>
+      <div class="field"><label>Departure</label><select id="time"><option>07:00–09:00</option><option>09:00–11:00</option><option>17:00–19:00</option><option>19:00–21:00</option></select></div>
+      <button class="btn btn-primary" type="submit">Search rides</button>
+    </form>
+  </section>
+  <div class="results-head"><div><span class="eyebrow">MATCHES</span><h2 id="results-title">Recommended rides</h2></div><span id="result-count" class="badge">4 rides</span></div>
+  <section id="ride-results" class="ride-list"></section>
+</main>
+<div id="app-footer"></div>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/rides.js"></script>
+</body></html>

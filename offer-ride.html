@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Offer a Ride — HOPR</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/analytics.js"></script>
+</head><body><div id="app-header"></div>
+<main class="page narrow">
+<section class="page-title"><span class="eyebrow">DRIVERS</span><h1>Offer a ride</h1><p>Create a sample ride. Submission is stored locally so you can practise a complete publish flow without a backend.</p></section>
+<form id="offer-form" class="form-card">
+<div class="form-grid">
+<div class="field"><label>Pickup</label><input id="pickup" value="Noida Sector 62" required></div>
+<div class="field"><label>Destination</label><input id="destination" value="Cyber Hub, Gurugram" required></div>
+<div class="field"><label>Date</label><input id="ride-date" type="date" required></div>
+<div class="field"><label>Departure time</label><input id="ride-time" type="time" value="08:15" required></div>
+<div class="field"><label>Available seats</label><select id="seats"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></div>
+<div class="field"><label>Contribution per seat (₹)</label><input id="fare" type="number" value="85" min="20" required></div>
+</div>
+<div class="field"><label>Ride note</label><textarea id="note" rows="4" placeholder="e.g. AC on, small luggage okay..."></textarea></div>
+<label class="check"><input id="verified" type="checkbox" checked> I will keep pickup details accurate and follow HOPR community guidelines.</label>
+<button class="btn btn-primary btn-wide" type="submit">Publish ride</button>
+<div id="offer-success" class="success hidden"></div>
+</form></main>
+<div id="app-footer"></div><script src="assets/js/app.js"></script><script src="assets/js/rides.js"></script></body></html>

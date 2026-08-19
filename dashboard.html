@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Dashboard — HOPR</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/analytics.js"></script>
+</head><body><div id="app-header"></div>
+<main class="page">
+<section class="page-title"><span class="eyebrow">YOUR HOPR</span><h1>Dashboard</h1><p>Local-only practice dashboard. It gives you realistic product states to trigger analytics events.</p></section>
+<div class="stats-row">
+<div class="stat-card"><span>Upcoming rides</span><strong id="dash-rides">2</strong><small>next 7 days</small></div>
+<div class="stat-card"><span>Saved routes</span><strong>3</strong><small>frequent journeys</small></div>
+<div class="stat-card"><span>Community rating</span><strong>4.9</strong><small>based on 18 rides</small></div>
+<div class="stat-card"><span>CO₂ saved</span><strong>34 kg</strong><small>this month</small></div>
+</div>
+<section class="dashboard-grid">
+<div class="panel"><div class="panel-head"><h2>Upcoming</h2><a href="find-rides.html">Find more</a></div>
+<div class="mini-ride"><span class="date-box">21<br><small>AUG</small></span><div><b>Noida → Gurugram</b><small>8:15 AM · Rajiv Chowk pickup</small></div><span class="badge success-badge">Confirmed</span></div>
+<div class="mini-ride"><span class="date-box">25<br><small>AUG</small></span><div><b>Gurugram → Noida</b><small>6:30 PM · Cyber Hub pickup</small></div><span class="badge">Requested</span></div>
+</div>
+<div class="panel"><div class="panel-head"><h2>Quick actions</h2></div>
+<a class="action-link" href="find-rides.html" data-track="dashboard_find_ride">🔎 Search for a ride <span>→</span></a>
+<a class="action-link" href="offer-ride.html" data-track="dashboard_offer_ride">🚗 Offer a ride <span>→</span></a>
+<a class="action-link" href="profile.html" data-track="dashboard_profile">👤 Update profile <span>→</span></a>
+</div>
+</section>
+</main><div id="app-footer"></div><script src="assets/js/app.js"></script></body></html>

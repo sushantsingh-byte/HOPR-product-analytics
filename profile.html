@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile — HOPR</title><link rel="stylesheet" href="assets/css/style.css"><script src="assets/js/analytics.js"></script>
+</head><body><div id="app-header"></div>
+<main class="page narrow">
+<section class="page-title"><span class="eyebrow">ACCOUNT</span><h1>Your profile</h1><p>Change profile fields and trigger profile-update analytics.</p></section>
+<form id="profile-form" class="form-card">
+<div class="profile-top"><div class="avatar large">SK</div><div><h2>Sushant Kumar</h2><p>Member since 2026 · Noida</p></div></div>
+<div class="form-grid">
+<div class="field"><label>Display name</label><input id="name" value="Sushant Kumar"></div>
+<div class="field"><label>Home city</label><input id="city" value="Noida"></div>
+<div class="field"><label>Preferred commute</label><select id="commute"><option>Morning</option><option>Evening</option><option>Both</option></select></div>
+<div class="field"><label>Phone verified</label><select id="phone"><option>Verified</option><option>Not verified</option></select></div>
+</div>
+<button class="btn btn-primary" type="submit">Save profile</button>
+<div id="profile-success" class="success hidden"></div>
+</form></main><div id="app-footer"></div><script src="assets/js/app.js"></script></body></html>

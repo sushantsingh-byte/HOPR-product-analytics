@@ -1,0 +1,38 @@
+HOPR PRODUCT ANALYTICS PRACTICE SHEET
+
+FUNNEL
+Landing -> Search -> Results -> Ride Detail -> Request Started -> Request Completed
+
+PRIMARY METRICS
+1. Visitors
+2. Searchers
+3. Search conversion = searchers / visitors
+4. Ride detail rate = detail viewers / searchers
+5. Request rate = request starters / detail viewers
+6. Booking/request conversion = completed requests / visitors
+7. Search-to-request conversion = completed requests / searches
+
+RETENTION
+- D1, D7, D30 returning users
+- Repeat search rate
+- Repeat request rate
+- WAU / MAU stickiness
+
+SEGMENTS
+- City
+- Device
+- New vs returning
+- Morning vs evening
+- Route
+- Fare range
+- Driver rating
+- Acquisition source (add UTMs later)
+
+PRODUCT QUESTIONS
+- Which route has the highest search volume?
+- Which route converts best?
+- Which departure window has the most demand?
+- Where is the biggest funnel drop-off?
+- Do users with profile verification request more rides?
+- Does driver rating affect request conversion?
+- Which users return within 7 days?

@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"></script>
+<script>
+  mixpanel.init("9cfb41711184c3c4988c94858ff5af9d", {
+    debug: true,              // testing ke time console mein logs dikhayega
+    track_pageview: true,     // har page visit automatically track hoga
+    persistence: "localStorage",
+    autocapture: true         // clicks, form submits wagairah auto-track
+  });
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HOPR — Carpool smarter</title>

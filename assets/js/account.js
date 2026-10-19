@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
         phone_status:document.getElementById("phone").value
       };
       track("profile_updated", traits);
-      identifyUser("demo_profile_user", traits);
+      const saved = JSON.parse(localStorage.getItem("hopr_user") || "null");
+      identifyUser(saved && saved.userId ? saved.userId : "demo_profile_user", traits);
       const box = document.getElementById("profile-success");
       box.classList.remove("hidden");
       box.textContent = "Profile saved. Check Mixpanel/GA4 for profile_updated.";
